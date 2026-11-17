@@ -17,7 +17,7 @@ class FormSubmission extends Model
 
     protected function casts(): array
     {
-        return ['payload' => 'array', 'submitted_at' => 'datetime'];
+        return ['payload' => 'array', 'metadata' => 'array', 'submitted_at' => 'datetime'];
     }
 
     public function form(): BelongsTo

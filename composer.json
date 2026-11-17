@@ -16,18 +16,18 @@
   },
   "autoload": {
     "psr-4": {
-      "ItmoSoft\\\\Forms\\\\": "src/"
+      "ItmoSoft\\Forms\\": "src/"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "ItmoSoft\\\\Forms\\\\Tests\\\\": "tests/"
+      "ItmoSoft\\Forms\\Tests\\": "tests/"
     }
   },
   "extra": {
     "laravel": {
       "providers": [
-        "ItmoSoft\\\\Forms\\\\FormsServiceProvider"
+        "ItmoSoft\\Forms\\FormsServiceProvider"
       ]
     }
   },
